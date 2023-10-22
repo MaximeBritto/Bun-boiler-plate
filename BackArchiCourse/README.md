@@ -5,7 +5,7 @@ This project present some diffrents features with NODEJS and with this project y
 You can find some feature integreted on the repos
 
 
-### Features
+# Features
 
 ## bcrypt (Version 5.1.1)
 
@@ -41,24 +41,27 @@ Mongoose Unique Validator is a plugin for Mongoose that simplifies the handling 
 Nodemon is a development tool that monitors changes in your Node.js application files and automatically restarts the server, making the development process more 
 efficient.
 
-### Some other dependencies
+# Some other dependencies
 
 ## depcheck (Version 1.4.7)
 
 Depcheck is a tool used to analyze the dependencies in a Node.js project. It helps identify unused or unnecessary dependencies, keeping the project lean.
 
-# To use :
+### To use :
 - use command in terminal "npm depcheck" (you can add folder where you can ignore some file if you dont want verify specifically)
+
 ## dotenv (Version 16.3.1)
 
 Dotenv is a module for loading environment variables from a .env file into your Node.js application. It's useful for managing configuration settings.
-# To use :
+
+### To use :
 - Create a file .env and in this folder you can for exemple create a variable to remplace your Data base url
 - you can see in "index.js" i put the command "process.env.MONGO_URL"
+
 ## jest (Version 29.7.0)
 
 Jest is a JavaScript testing framework widely used for writing and running unit tests and integration tests in Node.js and front-end JavaScript applications.
-# To use :
+### To use :
 - Create a file .test to put a founction you want to test
 -  use command in terminal "npm test" i put a little founction to success a test
 
@@ -69,5 +72,5 @@ Passport is a popular authentication middleware for Node.js that simplifies the 
 ## passport-jwt (Version 4.0.1)
 
 Passport JWT is an extension of the Passport library, specifically designed for working with JSON Web Tokens (JWT) as an authentication strategy in Node.js applications.
-# To use :
+### To use :
 - Here i try to use passport to remplace my actual middleware i let the code in comment 
