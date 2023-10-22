@@ -4,6 +4,11 @@ This project present some diffrents features with NODEJS and with this project y
 
 You can find some feature integreted on the repos
 
+use command in terminal to lauch de project :
+
+```
+npm start
+```
 
 # Features
 
@@ -48,7 +53,11 @@ efficient.
 Depcheck is a tool used to analyze the dependencies in a Node.js project. It helps identify unused or unnecessary dependencies, keeping the project lean.
 
 ### To use :
-- use command in terminal "npm depcheck" (you can add folder where you can ignore some file if you dont want verify specifically)
+- use command in terminal :
+```
+npm depcheck
+```
+ You can add folder where you can ignore some file if you dont want verify specifically
 
 ## dotenv (Version 16.3.1)
 
@@ -63,7 +72,11 @@ Dotenv is a module for loading environment variables from a .env file into your 
 Jest is a JavaScript testing framework widely used for writing and running unit tests and integration tests in Node.js and front-end JavaScript applications.
 ### To use :
 - Create a file .test to put a founction you want to test
--  use command in terminal "npm test" i put a little founction to success a test
+-  use command in terminal : 
+```
+npm test
+```
+ I put a little founction to success a test
 
 ## passport (Version 0.6.0)
 
